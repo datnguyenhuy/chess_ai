@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="lib/chessboardjs/css/chessboard-0.3.0.1.css">
-    <link rel="stylesheet" href="board.css">
+    <link rel="stylesheet" href="chess.css">
 </head>
 
 <body>
     <div id="board" class="board"></div>
     <br>
     <br>
-    <div class="info">
+    <aside class="info">
         Độ sâu tìm kiếm:
         <select id="search-depth">
         <option value="1">1</option>
@@ -20,18 +20,9 @@
         <option value="4">4</option>
         <option value="5">5</option>
     </select>
-
-        <br>
-        <span>Số không gian trạng thái đã xét: <span id="position-count"></span></span>
-        <br>
-        <span>Thời gian: <span id="time"></span></span>
-        <br>
-        <span>Số KGTT/s: <span id="positions-per-s"></span> </span>
-        <br>
-        <br>
         <div id="move-history" class="move-history">
         </div>
-    </div>
+    </aside>
     <script src="lib/jquery/jquery-3.2.1.min.js"></script>
     <script src="lib/chessboardjs/js/chess.js"></script>
     <script src="lib/chessboardjs/js/chessboard-0.3.0.js"></script>

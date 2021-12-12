@@ -1,9 +1,11 @@
 .board {
-    width: 500px;
+    float: left;
+    width: 600px;
     margin: auto
 }
 
 .info {
+    float: right;
     width: 400px;
     margin: auto;
 }

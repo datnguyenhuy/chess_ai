@@ -1,0 +1,23 @@
+.board {
+    float: left;
+    width: 600px;
+    margin: auto
+}
+
+.info {
+    float: right;
+    width: 400px;
+    margin: auto;
+    border: 2px solid #404040;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.move-history {
+    border: 1px chocolate;
+    max-height: 400px;
+    overflow-y: scroll;
+    border: 2px solid #404040;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
