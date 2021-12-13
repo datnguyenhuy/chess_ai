@@ -1,7 +1,13 @@
-# Simple chess AI
+# Chess AI - Nhập môn Trí tuệ nhân tạo
 
-A simple chess algorithm with alpha-beta pruning and board evaluation with piece-square tables.
+Clone repositry
+Link clone: https://github.com/datnguyenhuy/chess_ai
 
-Related blogpost: https://medium.freecodecamp.com/simple-chess-ai-step-by-step-1d55a9266977
+Setup project:
+- Chạy lệnh npm i
 
-Playable on https://jsfiddle.net/q76uzxwe/1/
+Debug:
+- Visual Studio Code: Run -> Start Debugging
+
+Trình duyệt 
+- Nhập link: http://127.0.0.1:8080
